@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.messages {
+  display: flex;
+  gap:10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message {
+  display: flex;
+  gap:10px;
+  width: max(50%, 100px);
+
+}
+
+.message__name {
+  color: red;
+}
